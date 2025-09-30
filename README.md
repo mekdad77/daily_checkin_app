@@ -33,3 +33,7 @@ Sinon, l'app **envoie un SMS automatiquement** à un contact d'urgence même si 
 ```bash
 git clone https://github.com/ton-utilisateur/daily_checkin_app.git
 cd daily_checkin_app
+<uses-permission android:name="android.permission.SEND_SMS"/>
+<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+<uses-permission android:name="android.permission.READ_SMS"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
