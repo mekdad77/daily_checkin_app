@@ -46,3 +46,9 @@ cd daily_checkin_app
         <action android:name="android.intent.action.REBOOT"/>
     </intent-filter>
 </receiver>
+defaultConfig {
+    ...
+    minSdkVersion 21
+}
+// Pour test rapide : 
+initialDelay: Duration(minutes: 2),
