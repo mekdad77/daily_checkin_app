@@ -37,3 +37,12 @@ cd daily_checkin_app
 <uses-permission android:name="android.permission.RECEIVE_SMS"/>
 <uses-permission android:name="android.permission.READ_SMS"/>
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<receiver
+    android:name="be.tramckrijte.workmanager.WorkManagerBroadcastReceiver"
+    android:enabled="true"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+        <action android:name="android.intent.action.REBOOT"/>
+    </intent-filter>
+</receiver>
