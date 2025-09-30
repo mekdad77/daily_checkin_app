@@ -52,3 +52,16 @@ defaultConfig {
 }
 // Pour test rapide : 
 initialDelay: Duration(minutes: 2),
+
+---
+
+## ✅ Étapes suivantes
+
+1. Crée un fichier `README.md` dans ton dépôt (ou modifie celui déjà créé).
+2. Colle le contenu ci-dessus.
+3. Commit & push :
+
+```bash
+git add README.md
+git commit -m "Ajout du README complet"
+git push
